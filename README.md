@@ -88,7 +88,7 @@ O Campus Lanches é uma solução completa para digitalização de lanchonetes u
 | SQLite | - | Banco de dados de desenvolvimento |
 | PostgreSQL | - | Banco de dados de produção (planejado) |
 
-### Versão Offline
+### v-offline
 
 | Tecnologia       | Versão           | Uso                                                                      |
 | ---------------- | ---------------- | ------------------------------------------------------------------------ |
@@ -210,9 +210,9 @@ backend-flask/
 └── README.md                 # Documentação do backend
 ```
 
-### Versão-Offline (Versão-Offline/)
+### Versão-Offline (v-offline/)
 ```
-Versão-Offline/
+v-offline/
 ├── 📁 __pycache__/                     # Cache Python gerado automaticamente
 │   ├── auth_module.cpython-313.pyc     # Cache do módulo de autenticação
 │   └── lanchonete_atualizado.cpython-313.pyc  # Cache do módulo principal da lanchonete
