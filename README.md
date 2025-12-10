@@ -368,6 +368,3 @@ O frontend estará disponível em `http://localhost:5173`
 **Email**: marianygomes2014@gmail.com
 
 **GitHub**: [https://github.com/MinAny7]
-
----
-
