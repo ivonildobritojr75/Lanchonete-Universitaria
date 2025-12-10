@@ -5,15 +5,49 @@ Este é um projeto base para uma API REST desenvolvida com Flask para gerenciar 
 ## Estrutura do Projeto
 
 ```
-backend-lanchonete/
-├── app/
-│   ├── __init__.py      # Inicialização da aplicação Flask
-│   ├── routes.py        # Definição das rotas da API
-│   └── models.py        # Modelos de dados (futuro)
-├── config.py            # Configurações da aplicação
-├── run.py              # Script para executar o servidor
-├── requirements.txt     # Dependências do projeto
-└── README.md           # Este arquivo
+backend-flask/
+├── 📁 app/
+│   ├── __init__.py           # Inicialização da aplicação Flask
+│   │
+│   ├── 📁 models/            # Modelos de dados (SQLAlchemy)
+│   │   ├── usuario.py        # Modelo de usuário
+│   │   ├── produto.py        # Modelo de produto
+│   │   ├── pedido.py         # Modelo de pedido
+│   │   ├── categoria.py      # Modelo de categoria
+│   │   └── db.py             # Configuração do banco
+│   │
+│   ├── 📁 repositories/      # Camada de acesso a dados
+│   │   ├── usuario_repository.py
+│   │   ├── produto_repository.py
+│   │   ├── pedido_repository.py
+│   │   └── categoria_repository.py
+│   │
+│   ├── 📁 service/           # Regras de negócio
+│   │   ├── usuario_service.py
+│   │   ├── produto_service.py
+│   │   ├── pedido_service.py
+│   │   └── categoria_service.py
+│   │
+│   ├── 📁 routes/            # Rotas da API
+│   │   ├── auth.py           # Rotas de autenticação
+│   │   ├── usuarios.py       # Rotas de usuários
+│   │   ├── produtos.py       # Rotas de produtos
+│   │   ├── pedidos.py        # Rotas de pedidos
+│   │   ├── categorias.py     # Rotas de categorias
+│   │   └── init.py           # Inicialização das rotas
+│   │
+│   └── 📁 utils/             # Utilitários
+│       └── jwt_utils.py      # Funções JWT
+│
+├── 📁 database/              # Scripts do banco de dados
+│   ├── schema.sql            # Schema do banco
+│   ├── seed.sql              # Dados iniciais
+│   └── db.sqlite3            # Banco SQLite
+│
+├── run.py                    # Ponto de entrada da aplicação
+├── requirements.txt          # Dependências Python
+├── seed.py                   # Script de população do banco
+└── README.md                 # Documentação do backend
 ```
 
 ## Instalação
