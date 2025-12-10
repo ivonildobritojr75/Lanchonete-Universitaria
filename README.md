@@ -88,7 +88,7 @@ O Campus Lanches é uma solução completa para digitalização de lanchonetes u
 | SQLite | - | Banco de dados de desenvolvimento |
 | PostgreSQL | - | Banco de dados de produção (planejado) |
 
-### Tecnologias Utilizadas
+### Versão Offline
 
 | Tecnologia       | Versão           | Uso                                                                      |
 | ---------------- | ---------------- | ------------------------------------------------------------------------ |
