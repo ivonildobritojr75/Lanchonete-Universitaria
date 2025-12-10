@@ -282,6 +282,22 @@ npm install
 ```bash
 npm run dev
 ```
+### Versão-Offline
+1. Importe o SQL em seu MySQL Workbench:
+   - Rode o arquivo /mnt/data/lanchonete.sql
+
+2. Verifique conexão:
+   - Ajuste credenciais no lanchonete_atualizado.py (função conectaMysql)
+
+3. Terminal:
+   - python3 /mnt/data/terminal_interface.py
+
+4. GUI:
+   - python3 /mnt/data/gui_tkinter.py
+
+5. API:
+   - python3 /mnt/data/api_flask.py
+   - Endpoints: /register, /login, /pratos, /pedidos
 
 O frontend estará disponível em `http://localhost:5173`
 
