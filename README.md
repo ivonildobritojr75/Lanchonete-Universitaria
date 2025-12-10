@@ -210,6 +210,40 @@ backend-flask/
 └── README.md                 # Documentação do backend
 ```
 
+### Versão-Offline (Versão-Offline/)
+```
+Versão-Offline/
+├── 📁 __pycache__/                     # Cache Python gerado automaticamente
+│   ├── auth_module.cpython-313.pyc     # Cache do módulo de autenticação
+│   └── lanchonete_atualizado.cpython-313.pyc  # Cache do módulo principal da lanchonete
+│
+├── 📁 .venv/                           # Ambiente virtual (bibliotecas instaladas)
+│   ├── pyvenv.cfg
+│   ├── .gitignore
+│   ├── 📁Include/
+│   ├── 📁Lib/
+│   │   └── site-packages/              # Dependências Python (Flask, bcrypt, jwt etc.)
+├── 📁 Scripts/                                   # Scripts executáveis do ambiente virtual Python
+│   ├── activate                                   # Script para ativar o ambiente (Unix)
+│   ├── activate.bat                               # Script para ativar o ambiente no Windows (cmd)
+│   ├── activate.fish                              # Script para ativar o ambiente no shell Fish
+│   ├── Activate                                   # Script de ativação para PowerShell
+│   ├── deactivate                                 # Script para desativar o ambiente
+│   ├── pip                                        # Executável do gerenciador de pacotes pip
+│   ├── pip3                                       # Alias do pip para Python 3
+│   ├── pip3.13                                    # Versão específica do pip vinculada ao Python 3.13
+│   ├── python                                     # Executável principal do Python
+│   └── pythonw                                    # Versão do Python sem console (Windows)
+│
+├── api_flask.py                        # API Flask (endpoints e servidor HTTP)
+├── auth_module.py                      # Autenticação (login, bcrypt, tokens)
+├── gui_tkinter.py                      # Interface gráfica Tkinter (PDV lanchonete)
+├── lanchonete_atualizado.py            # Lógica principal do sistema (produtos, pedidos, caixa)
+├── terminal_interface.py               # Interface de terminal (modo texto do PDV)
+├── lanchonete.sql                      # Banco SQLite (schema e dados)
+└── README_Lanchonete.txt               # Documentação descritiva do uso do sistema
+```
+
 ## 🚀 Como Executar
 
 ### Pré-requisitos
