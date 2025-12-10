@@ -88,6 +88,19 @@ O Campus Lanches é uma solução completa para digitalização de lanchonetes u
 | SQLite | - | Banco de dados de desenvolvimento |
 | PostgreSQL | - | Banco de dados de produção (planejado) |
 
+### Tecnologias Utilizadas
+
+| Tecnologia       | Versão           | Uso                                                                      |
+| ---------------- | ---------------- | ------------------------------------------------------------------------ |
+| Python           | 3.x              | Linguagem principal do projeto                                           |
+| MySQL            | -                | Banco de dados relacional, script definido em lanchonete.sql             |
+| Tkinter          | Nativo do Python | Interface gráfica local (GUI)                                            |
+| CLI (modo texto) | -                | Interação via terminal, script terminal_interface.py                     |
+| Flask            | -                | API backend, presente no ambiente virtual                                |
+| bcrypt           | -                | Hashing de senhas para autenticação                                      |
+| PyJWT            | -                | Geração e validação de tokens JWT                                        |
+| venv             | -                | Ambiente virtual contendo Flask, bcrypt, PyJWT e dependências auxiliares |
+
 ## 🏗 Arquitetura do Sistema
 
 ```
